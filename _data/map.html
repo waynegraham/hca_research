@@ -1,0 +1,2618 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1ca268e18e80526b46979b334d699f13 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1ca268e18e80526b46979b334d699f13" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1ca268e18e80526b46979b334d699f13 = L.map(
+                "map_1ca268e18e80526b46979b334d699f13",
+                {
+                    center: [40.03948, -88.27755],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_38250bb04dcd9476765a012f0e465742 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            var circle_marker_2605994ba29d156be93d18cf2bc51634 = L.circleMarker(
+                [40.03948, -88.27755],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_2605994ba29d156be93d18cf2bc51634.bindTooltip(
+                `<div>
+                     American University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ad12b0f97b77056307a13cb9ff81a7cd = L.circleMarker(
+                [37.5557, -79.07975],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_ad12b0f97b77056307a13cb9ff81a7cd.bindTooltip(
+                `<div>
+                     Amherst College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4c20424e6f107f04a851442faf47bdbd = L.circleMarker(
+                [33.46233, -112.073174],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_4c20424e6f107f04a851442faf47bdbd.bindTooltip(
+                `<div>
+                     Arizona State University Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a8d8473250785c4120ca83724511377b = L.circleMarker(
+                [33.751389, -84.413333],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_a8d8473250785c4120ca83724511377b.bindTooltip(
+                `<div>
+                     Atlanta University Center, Robert W. Woodruff Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_eb64acd0690f0db389130910cd6e3bc5 = L.circleMarker(
+                [44.10333292, -70.20249919],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_eb64acd0690f0db389130910cd6e3bc5.bindTooltip(
+                `<div>
+                     
+Bates College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_195ac0b1e29321b708879e64920178eb = L.circleMarker(
+                [31.54489, -97.11945],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_195ac0b1e29321b708879e64920178eb.bindTooltip(
+                `<div>
+                     Baylor University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0a77be4ac166a1a45105c3dcf3a958a0 = L.circleMarker(
+                [42.50302, -89.03087],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_0a77be4ac166a1a45105c3dcf3a958a0.bindTooltip(
+                `<div>
+                     Beloit College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3c447b3daaf67b0745b679cda632ced8 = L.circleMarker(
+                [37.5715, -84.29024],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_3c447b3daaf67b0745b679cda632ced8.bindTooltip(
+                `<div>
+                     Berea College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d9546d410dcf6b0aa0b0cb095140eb8b = L.circleMarker(
+                [31.20821, 29.91014],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_d9546d410dcf6b0aa0b0cb095140eb8b.bindTooltip(
+                `<div>
+                     Bibliotheca Alexandrina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_17bdc20c9cee7b6b0195fb1187258d8c = L.circleMarker(
+                [41.8679, -70.66349],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_17bdc20c9cee7b6b0195fb1187258d8c.bindTooltip(
+                `<div>
+                     Boston College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_441d948bc397d13916f0ad0d3d3cf7f1 = L.circleMarker(
+                [43.9073, -69.96311],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_441d948bc397d13916f0ad0d3d3cf7f1.bindTooltip(
+                `<div>
+                     Bowdoin College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_502e82309c91027bb5498572ae79fc30 = L.circleMarker(
+                [41.8292, -71.4026],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_502e82309c91027bb5498572ae79fc30.bindTooltip(
+                `<div>
+                     Brown University Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e0e030577159324609cb30f0797cdf5b = L.circleMarker(
+                [40.024197, -75.318314],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_e0e030577159324609cb30f0797cdf5b.bindTooltip(
+                `<div>
+                     Bryn Mawr College Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9bea82c5bbfb8c05882b1a8425c47244 = L.circleMarker(
+                [37.8025477, -122.2718856],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_9bea82c5bbfb8c05882b1a8425c47244.bindTooltip(
+                `<div>
+                     California Digital Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a6afbd7a0bb3a5e58875d94dd7f888ee = L.circleMarker(
+                [44.4623, -93.15467],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_a6afbd7a0bb3a5e58875d94dd7f888ee.bindTooltip(
+                `<div>
+                     Carleton College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c4850600ac8310ab9ae887f7156af448 = L.circleMarker(
+                [40.44118, -79.94283],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_c4850600ac8310ab9ae887f7156af448.bindTooltip(
+                `<div>
+                     Carnegie Mellon University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a2084ed8ea17cba855f8fb19ba4cd7e9 = L.circleMarker(
+                [42.62419, -87.81813],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_a2084ed8ea17cba855f8fb19ba4cd7e9.bindTooltip(
+                `<div>
+                     Carthage College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4115ee5079eb4addff23818469950d10 = L.circleMarker(
+                [43.7995219, 11.2992057],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_4115ee5079eb4addff23818469950d10.bindTooltip(
+                `<div>
+                     Casalini Libri
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_37d94d3289340b60948941d86fe53c84 = L.circleMarker(
+                [38.93366, -76.99786],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_37d94d3289340b60948941d86fe53c84.bindTooltip(
+                `<div>
+                     The Catholic University of America
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_26fc06c6710abe61265c966e09ccfc4c = L.circleMarker(
+                [34.10413, -117.71267],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_26fc06c6710abe61265c966e09ccfc4c.bindTooltip(
+                `<div>
+                     The Claremont Colleges
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3d31445f4b2342a2f79a68f8a423678d = L.circleMarker(
+                [42.70466385, -73.20816583],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_3d31445f4b2342a2f79a68f8a423678d.bindTooltip(
+                `<div>
+                     The Clark Art Institute
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8344b175974e3a1ea9197c2fe24a6517 = L.circleMarker(
+                [34.67705, -82.83875],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_8344b175974e3a1ea9197c2fe24a6517.bindTooltip(
+                `<div>
+                     Clemson University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5a5142e61efd001428412ebab1f8e055 = L.circleMarker(
+                [38.9089706, -77.0437402],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_5a5142e61efd001428412ebab1f8e055.bindTooltip(
+                `<div>
+                     Coalition for Networked Information
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bb00e953a875de80c45928d5d3daa6e6 = L.circleMarker(
+                [42.81729, -75.53573],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_bb00e953a875de80c45928d5d3daa6e6.bindTooltip(
+                `<div>
+                     Colgate University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7b33c3a1940ecf45e9ebb17039ee0ca5 = L.circleMarker(
+                [32.7838, -79.9373],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_7b33c3a1940ecf45e9ebb17039ee0ca5.bindTooltip(
+                `<div>
+                     College of Charleston
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_af0b259f44fb17cbf32670d9b5735616 = L.circleMarker(
+                [38.94297, -77.05828],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_af0b259f44fb17cbf32670d9b5735616.bindTooltip(
+                `<div>
+                     College of the Holy Cross
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a1e1bd66863d4ce45f44fa8bd3d2bfbd = L.circleMarker(
+                [40.57478, -105.08061],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_a1e1bd66863d4ce45f44fa8bd3d2bfbd.bindTooltip(
+                `<div>
+                     Colorado College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a515c4481de28f8f11145fca5901df45 = L.circleMarker(
+                [40.00442, -105.26706],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_a515c4481de28f8f11145fca5901df45.bindTooltip(
+                `<div>
+                     Colorado State University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2cad969152a415832215a8573e0432dc = L.circleMarker(
+                [49.26344, -123.25184],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_2cad969152a415832215a8573e0432dc.bindTooltip(
+                `<div>
+                     Columbia University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_67ae90eb26eddedc4f4ec587d06e1cc4 = L.circleMarker(
+                [45.49741, -73.5771],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_67ae90eb26eddedc4f4ec587d06e1cc4.bindTooltip(
+                `<div>
+                     Concordia University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_173ff5e93f2a21b6014cbe7cc90a1ef1 = L.circleMarker(
+                [41.37871, -72.1098],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_173ff5e93f2a21b6014cbe7cc90a1ef1.bindTooltip(
+                `<div>
+                     Connecticut College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6c5df6dcd427ba904dcb004c59666886 = L.circleMarker(
+                [42.4472985, -76.4944683],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_6c5df6dcd427ba904dcb004c59666886.bindTooltip(
+                `<div>
+                     Cornell University Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_170bd09a76631f071e4586c0387751f6 = L.circleMarker(
+                [42.1498084, -77.0567762],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_170bd09a76631f071e4586c0387751f6.bindTooltip(
+                `<div>
+                     The Corning Museum of Glass
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b1a39a6fad6d70fbe46bb36e3de39349 = L.circleMarker(
+                [38.9089706, -77.0437402],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_b1a39a6fad6d70fbe46bb36e3de39349.bindTooltip(
+                `<div>
+                     Council of Independent Colleges
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a5a9156de559eefcfd746aa1f048bb26 = L.circleMarker(
+                [43.70035, -72.28641],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_a5a9156de559eefcfd746aa1f048bb26.bindTooltip(
+                `<div>
+                     Dartmouth College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a4ccbe91900740d01e6c66bc16bae0f7 = L.circleMarker(
+                [36.00153, -78.94001],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_a4ccbe91900740d01e6c66bc16bae0f7.bindTooltip(
+                `<div>
+                     Duke University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_965fd54d3481f5f68e2c56312258f486 = L.circleMarker(
+                [33.79138, -84.32348],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_965fd54d3481f5f68e2c56312258f486.bindTooltip(
+                `<div>
+                     Emory University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_64bafdb676b318827330800f6f808acd = L.circleMarker(
+                [28.07389, -82.43902],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_64bafdb676b318827330800f6f808acd.bindTooltip(
+                `<div>
+                     Florida Atlantic University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1fdf8a72421fa31d05f54e6acc545e0a = L.circleMarker(
+                [28.07389, -82.43902],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_1fdf8a72421fa31d05f54e6acc545e0a.bindTooltip(
+                `<div>
+                     Florida State University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_538d919a577a2d463e03efbc7d30448e = L.circleMarker(
+                [34.84178, -82.40179],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_538d919a577a2d463e03efbc7d30448e.bindTooltip(
+                `<div>
+                     Furman University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_005746e5daf6a207e256fcef027b268e = L.circleMarker(
+                [38.83088, -77.30794],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_005746e5daf6a207e256fcef027b268e.bindTooltip(
+                `<div>
+                     George Mason University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6951eabf70160ffaea6b3a8b7e136361 = L.circleMarker(
+                [38.90727, -77.07258],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_6951eabf70160ffaea6b3a8b7e136361.bindTooltip(
+                `<div>
+                     The George Washington University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_98afac24e7280cdf7dd61161d3ff5a8f = L.circleMarker(
+                [38.90727, -77.07258],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_98afac24e7280cdf7dd61161d3ff5a8f.bindTooltip(
+                `<div>
+                     Georgetown University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_06f60e5b9cb5f0da677eb5fd5792d5f1 = L.circleMarker(
+                [33.77233, -84.39456],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_06f60e5b9cb5f0da677eb5fd5792d5f1.bindTooltip(
+                `<div>
+                     Georgia Institute of Technology
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3d04e44bef4a64fb123f2a1528c6963b = L.circleMarker(
+                [33.95206, -83.37394],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_3d04e44bef4a64fb123f2a1528c6963b.bindTooltip(
+                `<div>
+                     Georgia State University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_04f9497e4e62fb977ff9aeacd371a722 = L.circleMarker(
+                [34.076921, -118.4780865],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_04f9497e4e62fb977ff9aeacd371a722.bindTooltip(
+                `<div>
+                     Getty Research Institute
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8e61bf3433b5ad48b876a5a1d309ce8b = L.circleMarker(
+                [41.74958, -92.71986],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_8e61bf3433b5ad48b876a5a1d309ce8b.bindTooltip(
+                `<div>
+                     Grinnell College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_840831214d2451d285a1be02f40d8c3e = L.circleMarker(
+                [39.21839, -84.55078],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_840831214d2451d285a1be02f40d8c3e.bindTooltip(
+                `<div>
+                     Hamilton College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_182088b5efbfbc4a565818cb09ec3480 = L.circleMarker(
+                [42.377, -71.11666],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_182088b5efbfbc4a565818cb09ec3480.bindTooltip(
+                `<div>
+                     Harvard University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_918a8f259f4527ee3e5a1f825a251d08 = L.circleMarker(
+                [40.01178, -75.30574],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_918a8f259f4527ee3e5a1f825a251d08.bindTooltip(
+                `<div>
+                     Haverford College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8ef481b741694b86cd05c2adfd1eae81 = L.circleMarker(
+                [33.751389, -84.413333],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_8ef481b741694b86cd05c2adfd1eae81.bindTooltip(
+                `<div>
+                     HBCU Library Alliance
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9a44c146a21fec1ba2e1bf0de63de87f = L.circleMarker(
+                [34.1279218, -118.1170341],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_9a44c146a21fec1ba2e1bf0de63de87f.bindTooltip(
+                `<div>
+                     The Huntington Library, Art Collections & Botanical Gardens
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_95963061397ddcec18816c7fe88f3e71 = L.circleMarker(
+                [40.41226, -86.93668],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_95963061397ddcec18816c7fe88f3e71.bindTooltip(
+                `<div>
+                     Indiana University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a8bd99539047c5f435081f882fb8b049 = L.circleMarker(
+                [37.7823156, -122.8794664],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_a8bd99539047c5f435081f882fb8b049.bindTooltip(
+                `<div>
+                     Internet Archive
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_38252ea23fda2f712919012c71bbb4e1 = L.circleMarker(
+                [41.66387, -91.53581],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_38252ea23fda2f712919012c71bbb4e1.bindTooltip(
+                `<div>
+                     Iowa State University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1b1caaaf51f1da5aaacc37a328e5e7ef = L.circleMarker(
+                [38.38419, 20.67078],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_1b1caaaf51f1da5aaacc37a328e5e7ef.bindTooltip(
+                `<div>
+                     ITHAKA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_100f12ba5744b7709ddec028692de82f = L.circleMarker(
+                [38.43929, -78.87694],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_100f12ba5744b7709ddec028692de82f.bindTooltip(
+                `<div>
+                     James Madison University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_72e17ccac175c25c6ca6811af43e8a92 = L.circleMarker(
+                [51.5151667, -0.1117106],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_72e17ccac175c25c6ca6811af43e8a92.bindTooltip(
+                `<div>
+                     Jisc
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f02db372ab06bc249625303eed87084e = L.circleMarker(
+                [39.3290571, -76.6220053],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_f02db372ab06bc249625303eed87084e.bindTooltip(
+                `<div>
+                     Johns Hopkins University Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_48192de81e5bb0f8c3d5a24d2543521a = L.circleMarker(
+                [40.37684, -82.39659],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_48192de81e5bb0f8c3d5a24d2543521a.bindTooltip(
+                `<div>
+                     Kenyon College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f38a42e78653d78294ecc8cd6367f76e = L.circleMarker(
+                [40.69815, -75.2074],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_f38a42e78653d78294ecc8cd6367f76e.bindTooltip(
+                `<div>
+                     Lafayette College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7b385cfd4b7678851b74e0ee9461efc9 = L.circleMarker(
+                [38.88845, -77.00442],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_7b385cfd4b7678851b74e0ee9461efc9.bindTooltip(
+                `<div>
+                     Library of Congress
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_30c037b29dfff1223c4acfcfb265ed85 = L.circleMarker(
+                [35.83336, -106.25086],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_30c037b29dfff1223c4acfcfb265ed85.bindTooltip(
+                `<div>
+                     Los Alamos National Laboratory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fbbbca87f5979542363935201d01ccd7 = L.circleMarker(
+                [46.55694, -87.40139],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_fbbbca87f5979542363935201d01ccd7.bindTooltip(
+                `<div>
+                     Marquette University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_04a27fde69a3f23857b4bfb208557b3c = L.circleMarker(
+                [42.35954, -71.09172],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_04a27fde69a3f23857b4bfb208557b3c.bindTooltip(
+                `<div>
+                     Massachusetts Institute of Technology
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d14e22a4448157e64612bcbefd1b05d4 = L.circleMarker(
+                [43.25877, -79.91927],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_d14e22a4448157e64612bcbefd1b05d4.bindTooltip(
+                `<div>
+                     McMaster University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7b0767cdc12748fa6cba389cd317b494 = L.circleMarker(
+                [40.9220172, -74.2012152],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_7b0767cdc12748fa6cba389cd317b494.bindTooltip(
+                `<div>
+                     Metropolitan New York Library Council (METRO)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0691271f3af8a11a774f7fd61a6af1da = L.circleMarker(
+                [25.74649, -80.36755],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_0691271f3af8a11a774f7fd61a6af1da.bindTooltip(
+                `<div>
+                     Miami University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b5b49705653ebf3ef85fd8713fc7504e = L.circleMarker(
+                [42.28373, -83.72895],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_b5b49705653ebf3ef85fd8713fc7504e.bindTooltip(
+                `<div>
+                     Michigan State University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_60a3d0aaf5cf981461fffb5f98d9af55 = L.circleMarker(
+                [35.20314, -85.92109],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_60a3d0aaf5cf981461fffb5f98d9af55.bindTooltip(
+                `<div>
+                     Middle Tennessee State University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_06d2a5f8fdd23a34ab9a5a7e74cea288 = L.circleMarker(
+                [42.25565, -72.57453],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_06d2a5f8fdd23a34ab9a5a7e74cea288.bindTooltip(
+                `<div>
+                     Mount Holyoke College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_eb8bf80cd962998ed82fa12c86653317 = L.circleMarker(
+                [38.892861, -77.5998538],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_eb8bf80cd962998ed82fa12c86653317.bindTooltip(
+                `<div>
+                     National Archives and Records Administration
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_76628740f4e9965d49b06c9c4c47fb77 = L.circleMarker(
+                [38.89122, -77.01998],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_76628740f4e9965d49b06c9c4c47fb77.bindTooltip(
+                `<div>
+                     National Gallery of Art
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5950db415b210e06501c23e411f32b2f = L.circleMarker(
+                [38.99567, -77.09887],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_5950db415b210e06501c23e411f32b2f.bindTooltip(
+                `<div>
+                     National Library of Medicine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ba5f04a1b15a30748d79a7a25c30ae37 = L.circleMarker(
+                [40.7263528, -73.99502],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_ba5f04a1b15a30748d79a7a25c30ae37.bindTooltip(
+                `<div>
+                     New York Arts Resources Consortium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bfb1558f09f56ccde4500edfc6857009 = L.circleMarker(
+                [40.75333, -73.98278],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_bfb1558f09f56ccde4500edfc6857009.bindTooltip(
+                `<div>
+                     New York Public Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0fa0fef7b655061fcb6a95e0e760f7c5 = L.circleMarker(
+                [40.72871, -73.99597],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_0fa0fef7b655061fcb6a95e0e760f7c5.bindTooltip(
+                `<div>
+                     New York University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f3467352a9deae9b7ff4137bc8c09728 = L.circleMarker(
+                [35.7784146, -78.6809785],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_f3467352a9deae9b7ff4137bc8c09728.bindTooltip(
+                `<div>
+                     North Carolina State University Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_58e5816ebae47abdf7da3e26c450e2c3 = L.circleMarker(
+                [42.33982, -71.08755],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_58e5816ebae47abdf7da3e26c450e2c3.bindTooltip(
+                `<div>
+                     Northeastern University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_29b2ddaf86bcf955607822ec2ab068ba = L.circleMarker(
+                [42.0531985, -87.6774085],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_29b2ddaf86bcf955607822ec2ab068ba.bindTooltip(
+                `<div>
+                     Northwestern University Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_20f6cdb062a28ddcfad1c1e2e5a4a09c = L.circleMarker(
+                [41.7999022, -87.5903878],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_20f6cdb062a28ddcfad1c1e2e5a4a09c.bindTooltip(
+                `<div>
+                     The Obama Foundation
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3c07a267827f8a1b0954a7c441c818b8 = L.circleMarker(
+                [26.50168, 89.52749],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_3c07a267827f8a1b0954a7c441c818b8.bindTooltip(
+                `<div>
+                     Occidental College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5559aa5bd3cd21eea418f45a2e4d9db5 = L.circleMarker(
+                [41.10422, -80.64702],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_5559aa5bd3cd21eea418f45a2e4d9db5.bindTooltip(
+                `<div>
+                     The Ohio State University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cb14d196157a2256627df224fe26bf85 = L.circleMarker(
+                [44.5097473, -126.0488882],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_cb14d196157a2256627df224fe26bf85.bindTooltip(
+                `<div>
+                     Oregon State University Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8dd5c5c998e10bf353e134808f7de495 = L.circleMarker(
+                [42.7139206, -70.9116226],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_8dd5c5c998e10bf353e134808f7de495.bindTooltip(
+                `<div>
+                     Peabody Essex Museum Phillips Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f900c123b24eafb5f64107ed866c129d = L.circleMarker(
+                [40.84867, -77.84917],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_f900c123b24eafb5f64107ed866c129d.bindTooltip(
+                `<div>
+                     Pennsylvania State University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8d5b8f0b57ad0463b0d23e2beb3d290a = L.circleMarker(
+                [39.96567, -75.18185],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_8d5b8f0b57ad0463b0d23e2beb3d290a.bindTooltip(
+                `<div>
+                     Philadelphia Museum of Art
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fd6d4f25e2a82bde78b092200a3ee5b0 = L.circleMarker(
+                [40.69066, -73.9643],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_fd6d4f25e2a82bde78b092200a3ee5b0.bindTooltip(
+                `<div>
+                     Pratt Institute
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7d1c101929aa64be1080b859a9df56fd = L.circleMarker(
+                [40.34541, -74.66846],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_7d1c101929aa64be1080b859a9df56fd.bindTooltip(
+                `<div>
+                     Princeton Theological Seminary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_911658a40e0268984c5ccdef1533dbdb = L.circleMarker(
+                [40.3487, -74.6593],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_911658a40e0268984c5ccdef1533dbdb.bindTooltip(
+                `<div>
+                     Princeton University Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f5a9e99a83e54a0e8bdb2e4ed6c04f0f = L.circleMarker(
+                [40.424507, -105.3695722],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_f5a9e99a83e54a0e8bdb2e4ed6c04f0f.bindTooltip(
+                `<div>
+                     Purdue University Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6963eb3241e55e5ffe61e19f6e51ea67 = L.circleMarker(
+                [30.60631, -96.34496],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_6963eb3241e55e5ffe61e19f6e51ea67.bindTooltip(
+                `<div>
+                     Reed College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3e9d1b47114fb132153aec3a30d62e50 = L.circleMarker(
+                [35.1537, -89.98898],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_3e9d1b47114fb132153aec3a30d62e50.bindTooltip(
+                `<div>
+                     Rhodes College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_be06978266820c52c5aa6eef77bc531e = L.circleMarker(
+                [29.71912, -95.39744],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_be06978266820c52c5aa6eef77bc531e.bindTooltip(
+                `<div>
+                     Rice University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a91868a3d3cb02c791c328ba2915e4d5 = L.circleMarker(
+                [41.0918489, -73.8378507],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_a91868a3d3cb02c791c328ba2915e4d5.bindTooltip(
+                `<div>
+                     Rockefeller Archive Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1417b66943c26e03cc8bc65cc87aae1a = L.circleMarker(
+                [40.7626, -73.95486],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_1417b66943c26e03cc8bc65cc87aae1a.bindTooltip(
+                `<div>
+                     Rockefeller University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5f368c9d997f6bd4e518f6ded7ebc602 = L.circleMarker(
+                [40.5161564, -74.4925146],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_5f368c9d997f6bd4e518f6ded7ebc602.bindTooltip(
+                `<div>
+                     Rutgers, the State University of New Jersey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d1fa322e7cb5ddf1f0e5c033d296945f = L.circleMarker(
+                [44.46184, -93.18276],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_d1fa322e7cb5ddf1f0e5c033d296945f.bindTooltip(
+                `<div>
+                     St. Olaf College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_04bf26731e5fe97ee45606b2bd9655a2 = L.circleMarker(
+                [32.776, -117.07087],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_04bf26731e5fe97ee45606b2bd9655a2.bindTooltip(
+                `<div>
+                     San Diego State University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_12f8cb72f1e4250ba7adfdaa3cd7ff0f = L.circleMarker(
+                [39.9488003, -75.149196],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_12f8cb72f1e4250ba7adfdaa3cd7ff0f.bindTooltip(
+                `<div>
+                     Science History Institute
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_69040bf38e4e047579e7ce99098e1756 = L.circleMarker(
+                [35.2048, -85.9197],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_69040bf38e4e047579e7ce99098e1756.bindTooltip(
+                `<div>
+                     Sewanee: The University of the South
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_efddc074a80487a06cdc536841ecb7ee = L.circleMarker(
+                [43.09694, -73.78461],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_efddc074a80487a06cdc536841ecb7ee.bindTooltip(
+                `<div>
+                     Skidmore College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f6cd9e6e2e7313cc60410f0536565def = L.circleMarker(
+                [32.33376, -95.28384],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_f6cd9e6e2e7313cc60410f0536565def.bindTooltip(
+                `<div>
+                     Smith College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_06ff07fdd826f0cb8cca4fb5051a0640 = L.circleMarker(
+                [38.88872, -77.02581],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_06ff07fdd826f0cb8cca4fb5051a0640.bindTooltip(
+                `<div>
+                     Smithsonian Institution
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a32dd20b6c2ea41b857c0b3ebb98367a = L.circleMarker(
+                [32.8379, -96.78306],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_a32dd20b6c2ea41b857c0b3ebb98367a.bindTooltip(
+                `<div>
+                     Southern Methodist University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b58447fd8f03afcc6f2a635eb2d94f4a = L.circleMarker(
+                [37.4276727, -122.172651],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_b58447fd8f03afcc6f2a635eb2d94f4a.bindTooltip(
+                `<div>
+                     Stanford University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4547399f7def7e8ec679f615dacc33ec = L.circleMarker(
+                [39.90539, -75.3538],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_4547399f7def7e8ec679f615dacc33ec.bindTooltip(
+                `<div>
+                     Swarthmore College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_176eb44037ff62c828ca2c99488984ce = L.circleMarker(
+                [43.03784, -76.13465],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_176eb44037ff62c828ca2c99488984ce.bindTooltip(
+                `<div>
+                     Syracuse University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c129c7f2d94265ada20f1fc70226c151 = L.circleMarker(
+                [34.057918, -117.8239239],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_c129c7f2d94265ada20f1fc70226c151.bindTooltip(
+                `<div>
+                     Temple University Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1c8b0d32afe283722c1c19aca626e924 = L.circleMarker(
+                [42.40454, -71.11978],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_1c8b0d32afe283722c1c19aca626e924.bindTooltip(
+                `<div>
+                     Tufts University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b688259aa24b87e999847d9dc10303d4 = L.circleMarker(
+                [29.9397, -90.12041],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_b688259aa24b87e999847d9dc10303d4.bindTooltip(
+                `<div>
+                     Tulane University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5ddb5bc489371b97068fa7f183279ad2 = L.circleMarker(
+                [53.34242, -6.25667],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_5ddb5bc489371b97068fa7f183279ad2.bindTooltip(
+                `<div>
+                     Union College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5a644883de6a596f5796069897352239 = L.circleMarker(
+                [33.50483, -86.79999],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_5a644883de6a596f5796069897352239.bindTooltip(
+                `<div>
+                     University of Alabama at Birmingham
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1eba58e17a2ef490989810e67e24b8e7 = L.circleMarker(
+                [42.67369, -74.49681],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_1eba58e17a2ef490989810e67e24b8e7.bindTooltip(
+                `<div>
+                     University at Albany
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3b87c2ccac0182795353059ad03901e1 = L.circleMarker(
+                [32.23996, -110.9468],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_3b87c2ccac0182795353059ad03901e1.bindTooltip(
+                `<div>
+                     University of Arizona Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_48fad28ff174f68ca0664d1db5efebb2 = L.circleMarker(
+                [36.06869, -94.17215],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_48fad28ff174f68ca0664d1db5efebb2.bindTooltip(
+                `<div>
+                     University of Arkansas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4717a673f08378462d11e63a5a6fec3e = L.circleMarker(
+                [49.26344, -123.25184],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_4717a673f08378462d11e63a5a6fec3e.bindTooltip(
+                `<div>
+                     University of British Columbia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5e6dd4bb1c2c9c7e8384224a25e5958f = L.circleMarker(
+                [51.0775, -114.13305],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_5e6dd4bb1c2c9c7e8384224a25e5958f.bindTooltip(
+                `<div>
+                     University of Calgary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_006d76d0bdbf636c6c381affd963ab61 = L.circleMarker(
+                [37.87215, -122.25975],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_006d76d0bdbf636c6c381affd963ab61.bindTooltip(
+                `<div>
+                     University of California, Berkeley
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a1c98f0f389b4c3a6c0945ebfddfa925 = L.circleMarker(
+                [33.65349, -117.81048],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_a1c98f0f389b4c3a6c0945ebfddfa925.bindTooltip(
+                `<div>
+                     University of California, Irvine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b351fef516fbfb40b18e4f5928a32144 = L.circleMarker(
+                [33.97087, -118.4187],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_b351fef516fbfb40b18e4f5928a32144.bindTooltip(
+                `<div>
+                     University of California, Los Angeles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b5163c5ee3825641cc1fa111809913ca = L.circleMarker(
+                [33.97412, -117.32773],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_b5163c5ee3825641cc1fa111809913ca.bindTooltip(
+                `<div>
+                     University of California, Riverside
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_69eea7b35ea700fd4003bfa351cd4c69 = L.circleMarker(
+                [32.8778057, -117.2390416],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_69eea7b35ea700fd4003bfa351cd4c69.bindTooltip(
+                `<div>
+                     University of California, San Diego Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3725f61a58f561f36f24d605b3611b0e = L.circleMarker(
+                [34.4134, -119.84714],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_3725f61a58f561f36f24d605b3611b0e.bindTooltip(
+                `<div>
+                     University of California, Santa Barbara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_326b9eebce518bf55eae2267a83f3015 = L.circleMarker(
+                [37.07497, -121.99401],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_326b9eebce518bf55eae2267a83f3015.bindTooltip(
+                `<div>
+                     University of California, Santa Cruz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dcfcbec0507dd19784028636344c7a00 = L.circleMarker(
+                [42.05836, -87.6745],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_dcfcbec0507dd19784028636344c7a00.bindTooltip(
+                `<div>
+                     University of Chicago Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d149f3d976a5e4f659d7e905da9ac92c = L.circleMarker(
+                [40.00442, -105.26706],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_d149f3d976a5e4f659d7e905da9ac92c.bindTooltip(
+                `<div>
+                     University of Colorado at Boulder
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b8dae16bdeb42192bffd20ee2770c80a = L.circleMarker(
+                [39.18583, -75.54222],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_b8dae16bdeb42192bffd20ee2770c80a.bindTooltip(
+                `<div>
+                     University of Delaware Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_10acf70f7b8f83605456f24237e7e934 = L.circleMarker(
+                [39.67662, -104.96137],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_10acf70f7b8f83605456f24237e7e934.bindTooltip(
+                `<div>
+                     University of Denver
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2c780cd33fe004b3499f058f2b66dbd2 = L.circleMarker(
+                [32.5656257, -84.990672],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_2c780cd33fe004b3499f058f2b66dbd2.bindTooltip(
+                `<div>
+                     University of Georgia Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7b9a3491b9f1e7a85ae1d108f8100cca = L.circleMarker(
+                [29.72081, -95.34335],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_7b9a3491b9f1e7a85ae1d108f8100cca.bindTooltip(
+                `<div>
+                     University of Houston
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9226894b49a8de2ff3b72c5c83896cd1 = L.circleMarker(
+                [46.72572, -117.01128],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_9226894b49a8de2ff3b72c5c83896cd1.bindTooltip(
+                `<div>
+                     University of Idaho
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d36b71d8efb5a44a8d3e695da4516e89 = L.circleMarker(
+                [40.1142, -88.2281],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_d36b71d8efb5a44a8d3e695da4516e89.bindTooltip(
+                `<div>
+                     University of Illinois at Urbana-Champaign
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d3337914102f9dc890feb2faa5745dda = L.circleMarker(
+                [41.6612483, -91.5510237],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_d3337914102f9dc890feb2faa5745dda.bindTooltip(
+                `<div>
+                     University of Iowa Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8fbf35043e64d69016b2b351d5f61e87 = L.circleMarker(
+                [38.95381, -95.25451],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_8fbf35043e64d69016b2b351d5f61e87.bindTooltip(
+                `<div>
+                     University of Kansas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_013a53a8eebe0af9a4e94b1272320b0b = L.circleMarker(
+                [37.4122189, -88.8339587],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_013a53a8eebe0af9a4e94b1272320b0b.bindTooltip(
+                `<div>
+                     University of Kentucky Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ecf537fa624fedfd1ee3c1781eb44838 = L.circleMarker(
+                [38.21507, -85.75913],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_ecf537fa624fedfd1ee3c1781eb44838.bindTooltip(
+                `<div>
+                     University of Louisville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_aad1b97d9c10227dd2fe99c59f876a36 = L.circleMarker(
+                [38.98861, -76.9397],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_aad1b97d9c10227dd2fe99c59f876a36.bindTooltip(
+                `<div>
+                     University of Maryland at College Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b1f4af97870431744cf651d81eb6616a = L.circleMarker(
+                [42.389813, -73.6818145],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_b1f4af97870431744cf651d81eb6616a.bindTooltip(
+                `<div>
+                     University of Massachusetts Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5858704a30c35115675ef734c6350adc = L.circleMarker(
+                [25.74649, -80.36755],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_5858704a30c35115675ef734c6350adc.bindTooltip(
+                `<div>
+                     University of Miami
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7b36ca736f04e00659f63a38284a5a0e = L.circleMarker(
+                [42.28373, -83.72895],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_7b36ca736f04e00659f63a38284a5a0e.bindTooltip(
+                `<div>
+                     University of Michigan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_73e179c627ba16bb5c4fe1fdf4e3f98e = L.circleMarker(
+                [44.9709344, -93.2525895],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_73e179c627ba16bb5c4fe1fdf4e3f98e.bindTooltip(
+                `<div>
+                     University of Minnesota Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_867781e6d5d6fa8402f160bc56301d1b = L.circleMarker(
+                [40.81806, -96.70585],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_867781e6d5d6fa8402f160bc56301d1b.bindTooltip(
+                `<div>
+                     University of Nebraska-Lincoln
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_428ffee4a24191af8d032ff22e8685b5 = L.circleMarker(
+                [36.1071865, -115.1468528],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_428ffee4a24191af8d032ff22e8685b5.bindTooltip(
+                `<div>
+                     University of Nevada, Las Vegas Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e3fe7022b1ffc0b9058a24b962d3aef5 = L.circleMarker(
+                [35.99901, -78.92902],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_e3fe7022b1ffc0b9058a24b962d3aef5.bindTooltip(
+                `<div>
+                     University of North Carolina at Chapel Hill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_18368b91f37808016ad2f758993db124 = L.circleMarker(
+                [30.27715, -97.73251],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_18368b91f37808016ad2f758993db124.bindTooltip(
+                `<div>
+                     University of North Texas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_54cd3b639e041556f11eec567519e047 = L.circleMarker(
+                [41.7031, -86.23917],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_54cd3b639e041556f11eec567519e047.bindTooltip(
+                `<div>
+                     University of Notre Dame
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_26f5af5834ba1a889224f4fa016976d9 = L.circleMarker(
+                [35.2080168, -97.4637029],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_26f5af5834ba1a889224f4fa016976d9.bindTooltip(
+                `<div>
+                     University of Oklahoma Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9ec7ac5d5468975fedb52f81a1d9e4b2 = L.circleMarker(
+                [44.04598, -123.07046],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_9ec7ac5d5468975fedb52f81a1d9e4b2.bindTooltip(
+                `<div>
+                     University of Oregon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_897ee15ca40bdd80aa3ccfc3509980a4 = L.circleMarker(
+                [34.38307, -89.53956],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_897ee15ca40bdd80aa3ccfc3509980a4.bindTooltip(
+                `<div>
+                     University of Oxford
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0f14c676ed03f447c54f93385148771c = L.circleMarker(
+                [40.84867, -77.84917],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_0f14c676ed03f447c54f93385148771c.bindTooltip(
+                `<div>
+                     University of Pennsylvania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3f2f80c50c7fc72c4a03636d6feebec8 = L.circleMarker(
+                [40.44285, -79.95922],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_3f2f80c50c7fc72c4a03636d6feebec8.bindTooltip(
+                `<div>
+                     University of Pittsburgh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9f23280095bb078f74bd7241ddcee466 = L.circleMarker(
+                [33.47063, -81.98413],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_9f23280095bb078f74bd7241ddcee466.bindTooltip(
+                `<div>
+                     University of Richmond
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_415c45b7220bf9e769e489f743c5479f = L.circleMarker(
+                [43.12923, -77.62806],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_415c45b7220bf9e769e489f743c5479f.bindTooltip(
+                `<div>
+                     University of Rochester
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_957d603afdd2def7f62d14c44fb4290f = L.circleMarker(
+                [36.00153, -78.94001],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_957d603afdd2def7f62d14c44fb4290f.bindTooltip(
+                `<div>
+                     University of South Carolina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cff8ee3f98990a03cfbcafb740f15004 = L.circleMarker(
+                [28.07389, -82.43902],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_cff8ee3f98990a03cfbcafb740f15004.bindTooltip(
+                `<div>
+                     University of South Florida
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2d149ba11e012fb380959b8e2ed32ee6 = L.circleMarker(
+                [34.4134, -119.84714],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_2d149ba11e012fb380959b8e2ed32ee6.bindTooltip(
+                `<div>
+                     University of Southern California
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_de926dcdb7d9ac5f6bc54814b0fdbf26 = L.circleMarker(
+                [36.1451, -86.80274],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_de926dcdb7d9ac5f6bc54814b0fdbf26.bindTooltip(
+                `<div>
+                     University of Tennessee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ae3c765733ff622bd362821e5cac8e12 = L.circleMarker(
+                [32.73049, -97.12439],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_ae3c765733ff622bd362821e5cac8e12.bindTooltip(
+                `<div>
+                     University of Texas at Arlington
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f0612ea9f749bddc25379857e50f3f01 = L.circleMarker(
+                [30.28549, -97.74056],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_f0612ea9f749bddc25379857e50f3f01.bindTooltip(
+                `<div>
+                     University of Texas at Austin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_10e122df51bb787a8ea40f616cba88bb = L.circleMarker(
+                [43.6626368, -79.4019421],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_10e122df51bb787a8ea40f616cba88bb.bindTooltip(
+                `<div>
+                     University of Toronto Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3deb714477e3a0f7469fe0afd4f39eea = L.circleMarker(
+                [38.03561, -78.50329],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_3deb714477e3a0f7469fe0afd4f39eea.bindTooltip(
+                `<div>
+                     University of Virginia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3151892a8ecf019da3209a6e8762d094 = L.circleMarker(
+                [47.23565, -122.5504],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_3151892a8ecf019da3209a6e8762d094.bindTooltip(
+                `<div>
+                     University of Washington
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bdab2f06c61d9503fb833e247f1a870f = L.circleMarker(
+                [43.07388, -89.41095],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_bdab2f06c61d9503fb833e247f1a870f.bindTooltip(
+                `<div>
+                     University of Wisconsin-Madison
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5b855d8a7ccdd9b47e5fee20ba1ec893 = L.circleMarker(
+                [41.31192, -105.57638],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_5b855d8a7ccdd9b47e5fee20ba1ec893.bindTooltip(
+                `<div>
+                     University of Wyoming
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d709eb57140803860e991b330ff237c9 = L.circleMarker(
+                [40.19177, -75.45685],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_d709eb57140803860e991b330ff237c9.bindTooltip(
+                `<div>
+                     Ursinus College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_561e7bbbeafee4c8d8c23fd4c70aec1d = L.circleMarker(
+                [36.1451, -86.80274],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_561e7bbbeafee4c8d8c23fd4c70aec1d.bindTooltip(
+                `<div>
+                     Vanderbilt University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3e1e8cbb3d4fa6d85fc6d5921fded4fb = L.circleMarker(
+                [41.7044151, -73.9374036],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_3e1e8cbb3d4fa6d85fc6d5921fded4fb.bindTooltip(
+                `<div>
+                     Vassar College Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_78662da28012aef7894d62f5fb6c274b = L.circleMarker(
+                [40.03817, -75.34463],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_78662da28012aef7894d62f5fb6c274b.bindTooltip(
+                `<div>
+                     Villanova University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7ddb685544cf1af427659458de03c191 = L.circleMarker(
+                [38.03561, -78.50329],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_7ddb685544cf1af427659458de03c191.bindTooltip(
+                `<div>
+                     Virginia Commonwealth University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_45ec107d5045004bc50240fde02c9504 = L.circleMarker(
+                [37.20618, -80.40785],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_45ec107d5045004bc50240fde02c9504.bindTooltip(
+                `<div>
+                     Virginia Tech
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ab1900d13053755badd951ecc1330b99 = L.circleMarker(
+                [36.13347, -80.27727],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_ab1900d13053755badd951ecc1330b99.bindTooltip(
+                `<div>
+                     Wake Forest University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d493aebf8e10d4f52261bd2cfc498d55 = L.circleMarker(
+                [37.7888445, -79.4455472],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_d493aebf8e10d4f52261bd2cfc498d55.bindTooltip(
+                `<div>
+                     Washington and Lee University Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6fe5467f5f8b7046c71663bbd6cc3d14 = L.circleMarker(
+                [38.6487895, -90.382894],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_6fe5467f5f8b7046c71663bbd6cc3d14.bindTooltip(
+                `<div>
+                     Washington University in St. Louis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5a7a95eea651181f039dc7ee4b460cd4 = L.circleMarker(
+                [42.35527, -83.06652],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_5a7a95eea651181f039dc7ee4b460cd4.bindTooltip(
+                `<div>
+                     Wayne State University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_23b20e3f0c1af8eb2f915284d8d5c8ea = L.circleMarker(
+                [42.29537, -71.30617],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_23b20e3f0c1af8eb2f915284d8d5c8ea.bindTooltip(
+                `<div>
+                     Wellesley College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_56cf87d29bafca449cac3069b350e8a0 = L.circleMarker(
+                [40.29645, -83.06713],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_56cf87d29bafca449cac3069b350e8a0.bindTooltip(
+                `<div>
+                     Wesleyan University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_90186afd00a0d9094c5aaf8f95eedd31 = L.circleMarker(
+                [39.6452056, -79.9893137],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_90186afd00a0d9094c5aaf8f95eedd31.bindTooltip(
+                `<div>
+                     West Virginia University Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_29fac8563fd8fc1dc08048c0e79da0b3 = L.circleMarker(
+                [46.731, -117.15823],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_29fac8563fd8fc1dc08048c0e79da0b3.bindTooltip(
+                `<div>
+                     Whitman College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8bedfe0c94932c896da58581132b8576 = L.circleMarker(
+                [42.7134, -73.2091],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_8bedfe0c94932c896da58581132b8576.bindTooltip(
+                `<div>
+                     Williams College Libraries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7795ae3c4781d228aead35c2629b8cd7 = L.circleMarker(
+                [41.3087578, -72.9679355],
+                {"bubblingMouseEvents": true, "color": "#9C1944", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9C1944", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+    
+            circle_marker_7795ae3c4781d228aead35c2629b8cd7.bindTooltip(
+                `<div>
+                     Yale University Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_ddf7dbec7a3b88acd9f52ed2ce5242d9 = {
+                base_layers : {
+                    "stamentoner" : tile_layer_38250bb04dcd9476765a012f0e465742,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_ddf7dbec7a3b88acd9f52ed2ce5242d9.base_layers,
+                layer_control_ddf7dbec7a3b88acd9f52ed2ce5242d9.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_1ca268e18e80526b46979b334d699f13);
+        
+</script>
+</html>

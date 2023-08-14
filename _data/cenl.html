@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e72fa0d7b78604318a0f6a6655cd78af {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e72fa0d7b78604318a0f6a6655cd78af" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e72fa0d7b78604318a0f6a6655cd78af = L.map(
+                "map_e72fa0d7b78604318a0f6a6655cd78af",
+                {
+                    center: [41.3284598, 19.8203059],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bcdd3fa44c8f64d8dcea212f9fb17a3b = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            var circle_marker_2d19ee4e642138657707f11e645eafff = L.circleMarker(
+                [41.3284598, 19.8203059],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_2d19ee4e642138657707f11e645eafff.bindTooltip(
+                `<div>
+                     Biblioteka Kombetare / National Library of Albania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_477055f3a0bcf1f19a964ec689c5a2a7 = L.circleMarker(
+                [40.069099, 45.038189],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_477055f3a0bcf1f19a964ec689c5a2a7.bindTooltip(
+                `<div>
+                     Հայաստանի Ազգային Գրադարան / National Library of Armenia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e72e97fee6618f0459f57cbd1bdda972 = L.circleMarker(
+                [48.2062609, 16.3668953],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_e72e97fee6618f0459f57cbd1bdda972.bindTooltip(
+                `<div>
+                     Österreichische Nationalbibliothek / National Library of Austria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_57fff2c1af9af1970228db3b5969e25f = L.circleMarker(
+                [40.3743331, 49.845875],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_57fff2c1af9af1970228db3b5969e25f.bindTooltip(
+                `<div>
+                     M.F. Axundov adina Azerbaycan Milli Kitabxana / National Library of Azerbaijan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6678c1912c475649b7cfefb26980c3ed = L.circleMarker(
+                [50.8434436, 4.3556135],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_6678c1912c475649b7cfefb26980c3ed.bindTooltip(
+                `<div>
+                     Koninklijke Bibliotheek van België / Royal Library of Belgium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_38961c78c15e44825eb9ffe9740aef10 = L.circleMarker(
+                [43.8559667, 18.3968157],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_38961c78c15e44825eb9ffe9740aef10.bindTooltip(
+                `<div>
+                     Nacionalna i univerzitetska biblioteka / National and University Library of Bosnia and Herzegovina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_16b0b71de0d05b479e2bd6d14c4985ce = L.circleMarker(
+                [42.6947833, 23.3352349],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_16b0b71de0d05b479e2bd6d14c4985ce.bindTooltip(
+                `<div>
+                     Национална библиотека „Свети Свети Кирил и Методий / St.St. Cyril and Methodius National Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3d6e621f8e9006b2d0545cbed023d984 = L.circleMarker(
+                [45.7966353, 15.9775578],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_3d6e621f8e9006b2d0545cbed023d984.bindTooltip(
+                `<div>
+                     Nacionalna i sveučilišna knjižnica u Zagrebu / National and University Library in Zagreb
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_55fae798fe6a7ee1400cf5adde8b9f8c = L.circleMarker(
+                [35.1691807, 33.3621378],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_55fae798fe6a7ee1400cf5adde8b9f8c.bindTooltip(
+                `<div>
+                     Κυπριακή Βιβλιοθήκη / Cyprus Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ccde23eace49316e5a6c6a4cdcc7a4ab = L.circleMarker(
+                [50.0866978, 14.4162726],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_ccde23eace49316e5a6c6a4cdcc7a4ab.bindTooltip(
+                `<div>
+                     Národní knihovna České republiky / National Library of the Czech Republic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_be479903a17615579dbfea3b9455374f = L.circleMarker(
+                [56.26392, 9.501785],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_be479903a17615579dbfea3b9455374f.bindTooltip(
+                `<div>
+                     Det Kongelige Bibliotek / National Library of Denmark
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b1e4f82deb313f008db663c93168db32 = L.circleMarker(
+                [59.4375818, 24.7636141],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_b1e4f82deb313f008db663c93168db32.bindTooltip(
+                `<div>
+                     Eesti Rahvusraamatukogu / National Library of Estonia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_75ddfba284f239b21a32568ea72291e4 = L.circleMarker(
+                [60.1703401, 24.9503179],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_75ddfba284f239b21a32568ea72291e4.bindTooltip(
+                `<div>
+                     Kansalliskirjasto / The National Library of Finland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_789608a857b6809b3c2088de264e2b7a = L.circleMarker(
+                [48.8335842, 2.3757659],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_789608a857b6809b3c2088de264e2b7a.bindTooltip(
+                `<div>
+                     Bibliothèque nationale de France / National Library of France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_072714355eeb92b897f9d48c5396e146 = L.circleMarker(
+                [41.697208, 44.8007769],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_072714355eeb92b897f9d48c5396e146.bindTooltip(
+                `<div>
+                     საქართველოს პარლამენტის ეროვნული ბიბლიოთეკა / National Parliamentary Library of Georgia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fda50986745ca4dbde3685c12ea7a192 = L.circleMarker(
+                [50.1313282, 8.6806882],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_fda50986745ca4dbde3685c12ea7a192.bindTooltip(
+                `<div>
+                     Deutsche Nationalbibliothek / German National Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d4b7ad69ce578500e2fd2b1c512e4a06 = L.circleMarker(
+                [37.9811157, 23.7329786],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_d4b7ad69ce578500e2fd2b1c512e4a06.bindTooltip(
+                `<div>
+                     Εθνική Βιβλιοθήκη της Ελλάδος / National Library of Greece
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7802ae55d59bb0678bdf1bd7d2b9d8a0 = L.circleMarker(
+                [47.162494, 19.503304],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_7802ae55d59bb0678bdf1bd7d2b9d8a0.bindTooltip(
+                `<div>
+                     Országos Széchényi Könyvtár (OSZK) / National Library of Hungary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_85f7bc9f805c36e37352c3a144eda76c = L.circleMarker(
+                [64.963051, -19.020835],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_85f7bc9f805c36e37352c3a144eda76c.bindTooltip(
+                `<div>
+                     Landsbókasafn Íslands – Háskólabókasafn / National & University Library of Iceland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4ee09633feb3aa47605a044624c785b0 = L.circleMarker(
+                [53.3410984, -6.2544821],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_4ee09633feb3aa47605a044624c785b0.bindTooltip(
+                `<div>
+                     Leabharlann Náisiúnta na hÉireann / National Library of Ireland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7a55cc50900169aa44b10d37527d465a = L.circleMarker(
+                [43.7670813, 11.2623479],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_7a55cc50900169aa44b10d37527d465a.bindTooltip(
+                `<div>
+                     Biblioteca Nazionale Centrale di Firenze / The Central National Library of Florence
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1771c096736bddc8316f8ddcb35e7f32 = L.circleMarker(
+                [41.9055533, 12.5082884],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_1771c096736bddc8316f8ddcb35e7f32.bindTooltip(
+                `<div>
+                     Biblioteca Nazionale Centrale di Roma / The Central National Library of Rome
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7c8d75e1efc732a853640389c4af6314 = L.circleMarker(
+                [56.9410509, 24.0968204],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_7c8d75e1efc732a853640389c4af6314.bindTooltip(
+                `<div>
+                     Latvijas Nacionālā bibliotēka / National Library of Latvia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5616f4da2f798160660a7d75b35f1c38 = L.circleMarker(
+                [47.1410392, 9.520935],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_5616f4da2f798160660a7d75b35f1c38.bindTooltip(
+                `<div>
+                     Liechtensteinische Landesbibliothek / National Library of Liechtenstein
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8e9deb4d256b38e8192fb27c488cb307 = L.circleMarker(
+                [54.6905973, 25.2635405],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_8e9deb4d256b38e8192fb27c488cb307.bindTooltip(
+                `<div>
+                     Lietuvos nacionalinė Martyno Mažvydo biblioteka / Martynas Mazvydas National Library of Lithuania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8f099c1076a8f2b9a9d38df3d74919ef = L.circleMarker(
+                [49.6295817, 6.1657734],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_8f099c1076a8f2b9a9d38df3d74919ef.bindTooltip(
+                `<div>
+                     Bibliothèque nationale du Luxembourg / National Library of Luxembourg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7d25338b5590369fe28d9aec16a34e45 = L.circleMarker(
+                [35.8982694, 14.5134743],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_7d25338b5590369fe28d9aec16a34e45.bindTooltip(
+                `<div>
+                     Bibljoteka Nazzjonali ta’ Malta / Malta Libraries – The National Library of Malta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4e230e9c61454f8df5e0e3eae79fb632 = L.circleMarker(
+                [47.411631, 28.369885],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_4e230e9c61454f8df5e0e3eae79fb632.bindTooltip(
+                `<div>
+                     Biblioteca Nationala a Republicii Moldova / National Library of the Republic of Moldova
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2465f868c0b3f6a4a0d2f0fdffca3c44 = L.circleMarker(
+                [42.3945377, 18.915398],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_2465f868c0b3f6a4a0d2f0fdffca3c44.bindTooltip(
+                `<div>
+                     Nacionalna biblioteka Crne Gore „Đurđe Crnojević“ – Cetinje’ / National Library of Montenegro “Djurdje Crnojevic” – Cetinje’
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_88d80e7049acaae4015112b0805b743f = L.circleMarker(
+                [52.0809988, 4.3279921],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_88d80e7049acaae4015112b0805b743f.bindTooltip(
+                `<div>
+                     Koninklijke Bibliotheek / Royal Library of the Netherlands
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f3b64c6be8b412740a33edf1d966da9b = L.circleMarker(
+                [41.9979648, 21.4367516],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_f3b64c6be8b412740a33edf1d966da9b.bindTooltip(
+                `<div>
+                     Национална и универзитетска библиотека „Св. Климент Охридски“ / National and University Library “St Clement of Ohrid”
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_738b789225658be024d505e03be8b063 = L.circleMarker(
+                [59.9139308, 10.7176703],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_738b789225658be024d505e03be8b063.bindTooltip(
+                `<div>
+                     Nasjonalbiblioteket / National Library of Norway
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cc1bcb5b08dadb8b66e0184bab6b44d8 = L.circleMarker(
+                [52.2137667, 21.0034311],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_cc1bcb5b08dadb8b66e0184bab6b44d8.bindTooltip(
+                `<div>
+                     Biblioteka Narodowa / National Library of Poland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f381fd945bb52de31d4d15b04cd0d8ce = L.circleMarker(
+                [38.7511102, -9.1526399],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_f381fd945bb52de31d4d15b04cd0d8ce.bindTooltip(
+                `<div>
+                     Biblioteca Nacional de Portugal / National Library of Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a2ec7c596a20cd256e29781dda695eea = L.circleMarker(
+                [44.4255897, 26.1101499],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_a2ec7c596a20cd256e29781dda695eea.bindTooltip(
+                `<div>
+                     Biblioteca Naţională a României / National Library of Romania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_59512a82335ce9cd35f1f41300d67ebb = L.circleMarker(
+                [44.016521, 21.005859],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_59512a82335ce9cd35f1f41300d67ebb.bindTooltip(
+                `<div>
+                     Народна библиотека Србије / National Library of Serbia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_10751e386d5105a0287a9b014bafad5b = L.circleMarker(
+                [48.669026, 19.699024],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_10751e386d5105a0287a9b014bafad5b.bindTooltip(
+                `<div>
+                     Slovenská národná knižnica / Slovak National Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_31a70d86675494e15b46ecdb118959ed = L.circleMarker(
+                [46.0475198, 14.5039671],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_31a70d86675494e15b46ecdb118959ed.bindTooltip(
+                `<div>
+                     Narodna in univerzitetna knjižnica
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3d432f7568677a0fa64af67a9eab4381 = L.circleMarker(
+                [40.463667, -3.74922],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_3d432f7568677a0fa64af67a9eab4381.bindTooltip(
+                `<div>
+                     Biblioteca Nacional de España / National Library of Spain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_48ffa5ea0366dce05abfc6f6e73b4d51 = L.circleMarker(
+                [59.3381337, 18.0720786],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_48ffa5ea0366dce05abfc6f6e73b4d51.bindTooltip(
+                `<div>
+                     Kungliga Biblioteket / National Library of Sweden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_55dd36f33d2df44256b65fafdfca0a5a = L.circleMarker(
+                [46.9414123, 7.4496845],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_55dd36f33d2df44256b65fafdfca0a5a.bindTooltip(
+                `<div>
+                     Schweizerische Nationalbibliothek / Swiss National Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c8ee57d7b00af4883840d0a3f859859a = L.circleMarker(
+                [39.9161342, 32.8266693],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_c8ee57d7b00af4883840d0a3f859859a.bindTooltip(
+                `<div>
+                     Millî Kütüphane / National Library of Türkiye
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a2fe1b95800eae3ef12cb0b7ea86a50c = L.circleMarker(
+                [50.4043319, 30.5184863],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_a2fe1b95800eae3ef12cb0b7ea86a50c.bindTooltip(
+                `<div>
+                     Національна бібліотека України імені В. І. Вернадського / Vernadsky National Library of Ukraine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1ad071525ec7a5b6172cf2f86c122068 = L.circleMarker(
+                [51.5299717, -0.1276759],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_1ad071525ec7a5b6172cf2f86c122068.bindTooltip(
+                `<div>
+                     British Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_441ac3bdefdcfe36ac407c932174c2eb = L.circleMarker(
+                [55.9485782, -3.1919722],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_441ac3bdefdcfe36ac407c932174c2eb.bindTooltip(
+                `<div>
+                     Leabharlann Nàiseanta na h-Alba / National Library of Scotland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d18af2595f4423d1902b424d9d792f93 = L.circleMarker(
+                [41.902916, 12.453389],
+                {"bubblingMouseEvents": true, "color": "#0A6B64", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A6B64", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+    
+            circle_marker_d18af2595f4423d1902b424d9d792f93.bindTooltip(
+                `<div>
+                     Biblioteca Apostolica Vaticana / The Vatican Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_104b7b54633171cd9ff425979b047365 = {
+                base_layers : {
+                    "stamentoner" : tile_layer_bcdd3fa44c8f64d8dcea212f9fb17a3b,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_104b7b54633171cd9ff425979b047365.base_layers,
+                layer_control_104b7b54633171cd9ff425979b047365.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_e72fa0d7b78604318a0f6a6655cd78af);
+        
+</script>
+</html>

@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8ef787daca32c78cf5371e3416017c26 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8ef787daca32c78cf5371e3416017c26" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8ef787daca32c78cf5371e3416017c26 = L.map(
+                "map_8ef787daca32c78cf5371e3416017c26",
+                {
+                    center: [50.8434436, 4.3556135],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6e1af11ca28a03b7859d4fdb5bd385ff = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            var circle_marker_20d704ccc1b3d4d01f18dab89892bb1c = L.circleMarker(
+                [50.8434436, 4.3556135],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_20d704ccc1b3d4d01f18dab89892bb1c.bindTooltip(
+                `<div>
+                     Royal Library of Belgium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_883670dac01620fec686da1b9de89a85 = L.circleMarker(
+                [6.511959699999999, 2.6062495],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_883670dac01620fec686da1b9de89a85.bindTooltip(
+                `<div>
+                     National Library of Benin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0d781f5c07033f41e084f2ba66a1fae2 = L.circleMarker(
+                [9.30769, 2.315834],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_0d781f5c07033f41e084f2ba66a1fae2.bindTooltip(
+                `<div>
+                     National Archives of Benin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_036dd6f0e325f7d9ddb6a9624a04697b = L.circleMarker(
+                [12.3641698, -1.5332608],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_036dd6f0e325f7d9ddb6a9624a04697b.bindTooltip(
+                `<div>
+                     National Library of Burkina Faso
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0331457818f759d19f386d25a1c103d9 = L.circleMarker(
+                [12.3692453, -1.5139497],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_0331457818f759d19f386d25a1c103d9.bindTooltip(
+                `<div>
+                     National Archives of Burkina Faso
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_38cbd618e9b4a570f35f0b7223a5e12f = L.circleMarker(
+                [11.5765184, 104.9195715],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_38cbd618e9b4a570f35f0b7223a5e12f.bindTooltip(
+                `<div>
+                     National Library of Cambodia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_735ba1307c9e2b496bc27c2a304535c8 = L.circleMarker(
+                [7.369721999999999, 12.354722],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_735ba1307c9e2b496bc27c2a304535c8.bindTooltip(
+                `<div>
+                     National Archives of Cameroon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_37aa48e9270fc4cc5f20c864f8852633 = L.circleMarker(
+                [45.420053, -75.7078959],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_37aa48e9270fc4cc5f20c864f8852633.bindTooltip(
+                `<div>
+                     Library and Archives Canada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2e083992eb7df87b3a9f88b33a22b5ee = L.circleMarker(
+                [45.5154553, -73.5623129],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_2e083992eb7df87b3a9f88b33a22b5ee.bindTooltip(
+                `<div>
+                     National Library and Archives of Quebec
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8f2995f410cd581b718e6369e6b299e1 = L.circleMarker(
+                [5.3352163, -4.0243696],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_8f2995f410cd581b718e6369e6b299e1.bindTooltip(
+                `<div>
+                     National Library of Côte d'Ivoire
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_deff2644de0163f4fc6ccab1edf376aa = L.circleMarker(
+                [7.539988999999999, -5.547079999999999],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_deff2644de0163f4fc6ccab1edf376aa.bindTooltip(
+                `<div>
+                     National Archives of Côte d'Ivoire
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a6da5788687e4ac72dc5cd05d2a2ac3a = L.circleMarker(
+                [31.2089032, 29.9091587],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_a6da5788687e4ac72dc5cd05d2a2ac3a.bindTooltip(
+                `<div>
+                     Bibliotheca Alexandrina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b48c76ee5657374c5e40f2b3dec854d6 = L.circleMarker(
+                [48.8335842, 2.3757659],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_b48c76ee5657374c5e40f2b3dec854d6.bindTooltip(
+                `<div>
+                     National Library of France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f11419c1e5acedaa23a36a6fbd47f70d = L.circleMarker(
+                [18.971187, -72.285215],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_f11419c1e5acedaa23a36a6fbd47f70d.bindTooltip(
+                `<div>
+                     Haitian Spiritan Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_afe0fc5c54a6288f6fa5142fe517f715 = L.circleMarker(
+                [18.5466847, -72.34247739999999],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_afe0fc5c54a6288f6fa5142fe517f715.bindTooltip(
+                `<div>
+                     National Library of Haiti
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_18438b87e5bea356a4d3618410b2f545 = L.circleMarker(
+                [49.6295817, 6.1657734],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_18438b87e5bea356a4d3618410b2f545.bindTooltip(
+                `<div>
+                     National Library of Luxembourg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_226b1b41954c5fff8016902b30230bdc = L.circleMarker(
+                [-18.8791902, 47.5079055],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_226b1b41954c5fff8016902b30230bdc.bindTooltip(
+                `<div>
+                     University Library and Archives of Antananarivo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_519952100a4e5df9a4b852eec2b9d06a = L.circleMarker(
+                [-18.9153794, 47.5168355],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_519952100a4e5df9a4b852eec2b9d06a.bindTooltip(
+                `<div>
+                     National Library of Madagascar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5365c98968f6a7b72a4b553e6550f7ce = L.circleMarker(
+                [12.639329, -8.0210171],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_5365c98968f6a7b72a4b553e6550f7ce.bindTooltip(
+                `<div>
+                     National Library of Mali
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f30f34906b201e284461f8eed0afa2b2 = L.circleMarker(
+                [34.008408, -6.842638],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_f30f34906b201e284461f8eed0afa2b2.bindTooltip(
+                `<div>
+                     National Library of the Kingdom of Morocco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_276cf40a22e8e6bbfa4b8723cc58d177 = L.circleMarker(
+                [31.791702, -7.092619999999999],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_276cf40a22e8e6bbfa4b8723cc58d177.bindTooltip(
+                `<div>
+                     Archives of Morocco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e1db48c441042736caccea5768dbf427 = L.circleMarker(
+                [13.5033351, 2.0831313],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_e1db48c441042736caccea5768dbf427.bindTooltip(
+                `<div>
+                     Abdou Moumouni University Human Sciences Research Institute
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c8ee548aba00ded42bcfb58e79a11d69 = L.circleMarker(
+                [-4.304371700000001, 15.2826771],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_c8ee548aba00ded42bcfb58e79a11d69.bindTooltip(
+                `<div>
+                     National Library of Congo Brazzaville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_29a5e0fe7733e02e264dae392d9fe055 = L.circleMarker(
+                [-0.228021, 15.827659],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_29a5e0fe7733e02e264dae392d9fe055.bindTooltip(
+                `<div>
+                     National Center for Archives and Documentation of the Republic of Congo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_573d9f21ef16af68e1d553136e3def7c = L.circleMarker(
+                [14.6630817, -17.434179],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_573d9f21ef16af68e1d553136e3def7c.bindTooltip(
+                `<div>
+                     Library of the National Archives of Senegal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fc37bbf5d21c0f64106b20c0aeae8a15 = L.circleMarker(
+                [14.6941411, -17.4712464],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_fc37bbf5d21c0f64106b20c0aeae8a15.bindTooltip(
+                `<div>
+                     Central Library of Cheikh Anta Diop University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ca29653c5ae224ef57d011e7482893e7 = L.circleMarker(
+                [14.6836019, -17.4678715],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_ca29653c5ae224ef57d011e7482893e7.bindTooltip(
+                `<div>
+                     Fundamental Institute of Black Africa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8e1d9ef0c1485a26c507266979dc9265 = L.circleMarker(
+                [46.9414123, 7.4496845],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_8e1d9ef0c1485a26c507266979dc9265.bindTooltip(
+                `<div>
+                     Swiss National Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_409d5fd2b4a02ba1101059ec5e949cdf = L.circleMarker(
+                [36.7996151, 10.163626],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_409d5fd2b4a02ba1101059ec5e949cdf.bindTooltip(
+                `<div>
+                     National Library of Tunisia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3eaa135a42566a91dcd067d7c1a69ef5 = L.circleMarker(
+                [21.0260288, 105.8492902],
+                {"bubblingMouseEvents": true, "color": "#FBDF06", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FBDF06", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+    
+            circle_marker_3eaa135a42566a91dcd067d7c1a69ef5.bindTooltip(
+                `<div>
+                     National Library of Vietnam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_2874da810806bf12bddbdebd6004e183 = {
+                base_layers : {
+                    "stamentoner" : tile_layer_6e1af11ca28a03b7859d4fdb5bd385ff,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_2874da810806bf12bddbdebd6004e183.base_layers,
+                layer_control_2874da810806bf12bddbdebd6004e183.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_8ef787daca32c78cf5371e3416017c26);
+        
+</script>
+</html>
