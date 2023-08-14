@@ -5,6 +5,8 @@
 layout: page
 ---
 
+<a href="map">Map</a>
+
 <h1>Full List</h1>
 <ol>
  {% for member in site.data.aau_members %}
